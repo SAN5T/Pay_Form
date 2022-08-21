@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <title >  EASY PAY</title>
+</head>
+<h1>PAY EASY WITH EASY PAY</h1>
+<body>
+    <h4>* Mark are mandatory to fill </h4>
+    <form  class="form"    action="form">
+    <h2>Payment Form</h2>
+    <fieldset >
+        <legend>CONTACT INFO</legend>
+    <fieldset >
+    <legend >NAME *</legend>
+    <P>First Name: <input type="text" placeholder="sanjeev" name="name" required></P>
+    <p>Last name: <input type="text" placeholder="tiwari" name="last" id="name"></p>
+</fieldset>
+    <fieldset class="gender">
+        <legend>Gender *</legend>
+    <p>
+        Male <input type="radio" name="gender" id="Male" required>
+        Female <input type="radio" name="gender" id="Female" required>
+        Other <input type="radio" name="gender" id="other" required>
+    </p>
+</fieldset>
+<p>Address <textarea name="add"  placeholder="please enter your full Address here" id="add" cols="50" rows="4"></textarea></p>
+<p>e-mail * <input type="email" placeholder="sanjeevtiwari3236@gmail.com" name="email" id="email" required></p>
+<p>Pincode * <input type="number" placeholder="401202"name="pin" id="pin" required></p>
+</fieldset>
+<hr>
+<fieldset class="cardinfo">
+    <legend > CARD INFO</legend>
+    <fieldset>
+    <legend>CARD TYPE *</legend>
+    <p>
+        <select name="card" id="card" required>
+        <option value="">PLEASE SELECT YOUR CARD TYPE</option>    
+         <option value="rupay" >Rupay</option>
+         <option value="visa">visa</option>
+         <option value="mastercard">mastercard</option>
+        </select>
+    </p>
+</fieldset>
+    <p>Card N. * <input type="number" name="card" placeholder="1122-3344-5566-7788" id="card" required></p>
+    <p>Valid date upto * <input type="date" name="date" id="date"></p>
+    <p>CVV *<input type="password" placeholder="123" name="cvv" id="cvv" required></p>
+    <input type="submit" value="SEND OTP" class="otp">
+    <hr>
+    <p>Enter OTP <input type="number" placeholder="123456" name="otp" id="otp"></p>
+    <input type="submit" value="PAY" class="sub">
+</fieldset>
+</form>
+</body>
+</html>
