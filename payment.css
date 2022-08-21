@@ -1,0 +1,48 @@
+h1{
+    background-color: rgba(137, 43, 226, 0.712);
+    text-align-last: center;
+}
+h4{
+color: red;
+}
+body{
+    background-color: seashell;
+    padding: 20px;
+    margin: 50px ;
+    border-collapse: collapse ;
+    border-radius: 10px;
+
+}
+.form{
+    background-color: rgba(255, 239, 173, 0.616);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.gender{
+    background-color: cornsilk;
+}
+.sub{
+    background-color:lawngreen;
+    width: 50%;
+    height: 30px;
+    box-shadow: lightblue;
+    border: black;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.otp{
+    background-color:rgb(252, 151, 0);
+    width: 25%;
+    height: 30px;
+    box-shadow: lightblue;
+    border: black;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: magenta;
+    
+}
+
